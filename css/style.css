@@ -1,0 +1,29 @@
+body {
+  background-image: url("../img/oplot.jpg");
+  background-color: yellow;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1600px 1000px;
+  margin-top: 5%;
+  margin-left: 50%;
+}
+
+.row {
+  margin-bottom: 10px;
+  font: 12px Verdana;
+}
+
+.row#list {
+  margin-bottom: 20px;
+}
+
+.row .title,
+.row .value {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.row .title {
+  font-weight: bold;
+}
