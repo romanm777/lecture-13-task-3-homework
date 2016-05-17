@@ -4,11 +4,15 @@
   <meta charset="utf-8">
   <title>Lecture 13.3 (DOM & BOM 2) homework</title>
   <link rel="stylesheet" href="./css/style.css"/>
+  <script type="text/javascript" src="./js/input.js"></script>
 </head>
   <body>
     <div class="row">
-      <span class="title">count:</span>
-      <span class="value"><input type="text" value="5" /></span>
+      <span class="title">Count (from 0 to 10):</span>
+      <span class="value"><input type="text" id="checkCount" maxlength="2"
+        name="count" placeholder="Number from 0 to 100"
+        onkeypress="return checkInput(event)"
+        oninput="processInput()" value="5" /></span>
     </div>
 
     <div class="row" id="list">
@@ -29,5 +33,6 @@
       <span class="value">0</span>
     </div>
 
+    <script type="text/javascript" src="./js/base.js"></script>
   </body>
 </html>
